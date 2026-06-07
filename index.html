@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happiness Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>🌈 Happiness Hub</h1>
+<p>Small Activities, Better Mood, Calmer Mind</p>
+</header>
+
+<section class="card">
+<h2>😊 Mood Mirror</h2>
+<select id="mood">
+<option>Stressed</option>
+<option>Sad</option>
+<option>Tired</option>
+<option>Happy</option>
+</select>
+<button onclick="recommend()">Get Recommendation</button>
+<p id="result"></p>
+</section>
+
+<section class="card">
+<h2>🌬 Emergency Calm</h2>
+<div class="breathing"></div>
+<p>Breathe with the circle animation.</p>
+</section>
+
+<section class="card">
+<h2>🎮 Calm Arcade</h2>
+<button onclick="score++ ; document.getElementById('score').innerText=score;">Pop Bubble</button>
+<p>Score: <span id="score">0</span></p>
+</section>
+
+<section class="card">
+<h2>🌲 Nature Nest</h2>
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/lE6RYpe9IT0"></iframe>
+</section>
+
+<section class="card">
+<h2>🎵 Melody Space</h2>
+<audio controls>
+<source src="" type="audio/mpeg">
+</audio>
+<p>Add royalty-free calm music file.</p>
+</section>
+
+<section class="card">
+<h2>✨ Happy Sparks</h2>
+<button onclick="quote()">New Quote</button>
+<p id="quote"></p>
+</section>
+
+<section class="card">
+<h2>🙏 Gratitude Wall</h2>
+<textarea placeholder="Write something good about today"></textarea>
+</section>
+
+<footer>Made for College Project Presentation</footer>
+<script src="script.js"></script>
+</body>
+</html>

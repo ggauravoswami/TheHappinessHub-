@@ -1,0 +1,15 @@
+
+body{font-family:Arial;margin:0;background:linear-gradient(135deg,#dff6ff,#ffe8f5);text-align:center}
+header{padding:40px;color:#333}
+.card{background:white;margin:20px auto;padding:20px;max-width:850px;border-radius:20px;box-shadow:0 4px 12px rgba(0,0,0,.1)}
+button{padding:10px 20px;border:none;border-radius:30px;cursor:pointer}
+textarea{width:90%;height:120px}
+.breathing{
+width:120px;height:120px;border-radius:50%;
+background:#bde0fe;margin:auto;
+animation:breathe 4s infinite;
+}
+@keyframes breathe{
+0%,100%{transform:scale(1)}
+50%{transform:scale(1.5)}
+}
